@@ -17,7 +17,6 @@ fun main() {
     val names = arrayListOf<String>("Tom", "Jack", "Rose", "Kitty")
 
 
-
     for (name in names) {
         println("$name")
     }
@@ -36,6 +35,11 @@ fun main() {
             4-> println("4")
         }
     }
-
-
+    //do while  or while
+    val i = 0
+    while (i in 10 downTo 2) {
+        if (i == 2){
+            println("current:$i")
+        }
+    }
 }

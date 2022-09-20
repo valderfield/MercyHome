@@ -16,3 +16,6 @@ rootProject.name = "MercyHome"
 include ':app'
 include ':lib_learn_kt'
 include ':lib_learn_java'
+include ':module_utils'
+include ':lib_db'
+include ':lib_utils'
